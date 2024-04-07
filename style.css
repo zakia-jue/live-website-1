@@ -5,13 +5,46 @@ outline: 0;
 box-sizing: border-box;}
 
 body{ font-family: "Poppins", sans-serif;}
+/* nav section style here */
+.nav-area{
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(230, 228, 228);}
 
+.logo{display: flex;
+align-items: center;
+gap: 0px 15px;}
+.logo h4{font-size: 20px;}
 
+.menu-area{display: flex;
+align-items: center;
+gap: 0px 15px;}
 
+.discover-button{
+    text-decoration: none;
+    background-color: rgb(241, 241, 241);
+    color: black;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 100px;
+    font-weight: 500;}
 
+.login-button{
+    text-decoration: none;
+    background-color: #607AFC;
+    color: black;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-weight: 500;
+    color: white;}
 
-
-
+    .menu-area img{width: 40px;
+border: 3px solid rgb(97, 95, 95);
+border-radius: 50%;}
+/* navbar area end here */
 
 
 
