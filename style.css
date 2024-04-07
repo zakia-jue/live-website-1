@@ -4,10 +4,11 @@ padding: 0;
 outline: 0;
 box-sizing: border-box;}
 
-body{ font-family: "Poppins", sans-serif;}
+body{ font-family: "Poppins", sans-serif;
+background-color:#FAFAFA;}
 
 .cointiner{
-    padding: 0px 250px;
+    padding: 0px 180px;
 }
 /* nav section style here */
 .nav-area{
@@ -62,8 +63,6 @@ width: 350px;
 border-radius: 5px;
 padding-right: 30px;}
 
-.baner-text-area{}
-
 .baner-text-area h1{
     font-size: 55px;
     font-weight: 600;
@@ -81,6 +80,39 @@ padding-top: 10px;}
     color: white;
     font-size: 15px;}
     /* baner area end here */
+
+/* why choose us section start here */
+.why-choose-area h1{font-size: 30px;}
+
+.why-choose-area p{font-size: 16px;
+padding-top: 10px;}
+
+.card-cointiner{padding-top: 30px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;}
+
+.card{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px lightgrey;
+border-radius: 10px;}
+
+.card h4{padding-top: 15px;
+line-height: 3px;
+font-weight: 600;}
+
+.card p{font-size: 14px;
+color: gray;}
+
+/* why choose us section end here  */
+
+
+
+
+
+
 
 
 
