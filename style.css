@@ -5,6 +5,10 @@ outline: 0;
 box-sizing: border-box;}
 
 body{ font-family: "Poppins", sans-serif;}
+
+.cointiner{
+    padding: 0px 250px;
+}
 /* nav section style here */
 .nav-area{
     padding: 15px 100px;
@@ -46,15 +50,37 @@ border: 3px solid rgb(97, 95, 95);
 border-radius: 50%;}
 /* navbar area end here */
 
+/* baner area style start here */
+.baner-area{display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-top: 80px;
+padding-bottom: 80px;}
+    
+.baner-img{height: 250px;
+width: 350px;
+border-radius: 5px;
+padding-right: 30px;}
 
+.baner-text-area{}
 
+.baner-text-area h1{
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 60px;}
 
+.baner-text-area p{font-size: 17px;
+padding-top: 10px;}
 
-
-
-
-
-
+.baner-text-area button{
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: #607AFC;
+    border: 1px solid #607AFC;
+    border-radius: 100px;
+    color: white;
+    font-size: 15px;}
+    /* baner area end here */
 
 
 
