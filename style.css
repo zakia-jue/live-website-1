@@ -97,7 +97,8 @@ gap: 20px;}
     padding: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px lightgrey;
-border-radius: 10px;}
+border-radius: 10px;
+width: 100%;}
 
 .card h4{padding-top: 15px;
 line-height: 3px;
@@ -107,6 +108,47 @@ font-weight: 600;}
 color: gray;}
 
 /* why choose us section end here  */
+/* image section start here */
+
+.images{width: 300px;
+    height: 190px;
+border-radius: 10px;}
+
+.image-cointiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 50px;
+}
+.img-card{
+border-radius: 10px;
+background-color: white;
+border: 1px solid lightgrey;
+box-shadow: 1px 1px 10px lightgrey;}
+
+.img-card h5{font-size: 18px;
+padding-left: 10px;}
+
+.img-card p{font-size: 15px;
+color: grey; padding-left: 10px;}
+
+.img-card button{background-color: lightgrey;
+font-weight: 700;
+border-radius: 100px;
+border: 1px solid lightgray;
+padding: 8px 20px;
+margin-top: 15px;
+margin-left: 10px;}
+
+#button-1{margin-top: 36px;}
+#button-2{margin-top: 36px;}
+/* image section end here */
+
+
+
+
+
+
 
 
 
