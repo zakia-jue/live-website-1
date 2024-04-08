@@ -140,21 +140,39 @@ padding: 8px 20px;
 margin-top: 15px;
 margin-left: 10px;}
 
-#button-1{margin-top: 36px;}
-#button-2{margin-top: 36px;}
+#button-1{margin-top: 37px;}
+#button-2{margin-top: 37px;}
 /* image section end here */
 
+/* footer area start here */
 
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;}
+   
+.main-footer{padding-top: 60px;
+padding-bottom: 60px;}
 
+.footer-text{text-decoration: none;
+color: black;}
+/* social icon area */
+.social-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 25px; padding-top: 30px;
+   }
 
-
-
-
-
-
-
-
-
+   .social-menu a{color: gray;
+font-size: 25px;}
+/* copy right area */
+.copy-right{
+   text-align: center;
+   padding-top: 15px;
+}
+/* footer area end here  */
 
 
 
