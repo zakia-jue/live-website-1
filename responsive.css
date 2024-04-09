@@ -1,0 +1,117 @@
+/* for mobile devices */
+@media only screen and (max-width:688px){
+ /* navbar responsive style   */
+ .cointiner{padding: 0px 30px;}
+ .nav-area{padding: 5px 20px;}
+.logo{gap: 3px 15px;}
+.logo h4{font-size: 13px;
+padding-right: 5px;}
+.menu-area{gap: 0px 10px;}
+.discover-button{font-size: 10px;
+    padding: 3px 20px;
+   font-weight: 400;}
+.login-button{font-size: 12px;
+    padding: 5px 15px;
+   font-weight: 400;
+padding-left: 15px;}
+.menu-area img{width: 40px ;}
+
+/* banner area responsive style */
+.baner-img{height: 150px;
+    width: 170px;
+    border-radius: 3px;
+    padding-right: 15px;}
+.baner-text-area h1{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;}
+.baner-text-area p{font-size: 12px;
+    padding-top: 8px;}
+.baner-text-area button{
+        margin-top: 5px;
+        padding: 5px 12px;
+        font-size: 10px;}
+.baner-area{padding-top: 30px;
+    padding-bottom: 30px;}
+
+/* why choose us area responsive here */
+.why-choose-area h1{font-size: 20px;}
+
+.why-choose-area p{font-size: 12px;
+padding-top: 5px;}
+
+.card-cointiner{padding-top: 20px;
+display: grid;
+grid-template-columns: 1fr;
+gap: 10px;}
+
+.card{padding: 15px;
+   border-radius: 8px;}
+
+.card h4{padding-top: 10px;
+line-height: 3px;
+font-weight: 600;}
+
+.card p{font-size: 12px;}
+/* image section responsive here */
+.images{width: 300px;
+    height: 160px;}
+
+.img-area{display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;padding-top: 30px;}
+
+.img-card h5{font-size: 17px;
+padding-left: 10px;}
+
+.img-card p{font-size: 14px;
+     padding-left: 10px;}
+
+.img-card button{
+font-weight: 700;
+padding: 5px 15px;
+margin-top: 15px;
+margin-left: 10px;}
+/* footer area responsive here */
+.main-footer{padding-top: 30px;
+padding-bottom: 300px;}
+.footer-text{font-size: 13px;}
+/* social icon area responsive */
+.social-menu{gap: 20px; padding-top: 20px;}
+.social-menu a{font-size: 18px;}
+/* copy right responsive */
+.copy-right{font-size: 14px;
+padding-top: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

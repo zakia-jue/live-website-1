@@ -92,8 +92,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 20px;}
 
-.card{
-    border: 1px solid lightgrey;
+.card{border: 1px solid lightgrey;
     padding: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px lightgrey;
@@ -114,14 +113,11 @@ color: gray;}
     height: 190px;
 border-radius: 10px;}
 
-.image-cointiner{
-    display: grid;
+.img-area{display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding-top: 50px;
-}
-.img-card{
-border-radius: 10px;
+    gap: 20px;padding-top: 50px;}
+
+.img-card{border-radius: 10px;
 background-color: white;
 border: 1px solid lightgrey;
 box-shadow: 1px 1px 10px lightgrey;}
@@ -143,9 +139,7 @@ margin-left: 10px;}
 #button-1{margin-top: 37px;}
 #button-2{margin-top: 37px;}
 /* image section end here */
-
 /* footer area start here */
-
 .footer-menu{
     display: flex;
     justify-content: space-around;
@@ -162,16 +156,14 @@ color: black;}
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    gap: 25px; padding-top: 30px;
-   }
+    gap: 25px; padding-top: 30px;}
 
    .social-menu a{color: gray;
 font-size: 25px;}
 /* copy right area */
 .copy-right{
    text-align: center;
-   padding-top: 15px;
-}
+   padding-top: 15px;}
 /* footer area end here  */
 
 
