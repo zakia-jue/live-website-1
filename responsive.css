@@ -74,34 +74,112 @@ margin-top: 15px;
 margin-left: 10px;}
 /* footer area responsive here */
 .main-footer{padding-top: 30px;
-padding-bottom: 300px;}
+padding-bottom: 60px;}
 .footer-text{font-size: 13px;}
 /* social icon area responsive */
 .social-menu{gap: 20px; padding-top: 20px;}
 .social-menu a{font-size: 18px;}
 /* copy right responsive */
 .copy-right{font-size: 14px;
-padding-top: 10px;}
+padding-top: 10px;}} 
 
+/* for tab device responsive style */
+@media only screen and (min-width:689px) and
+(max-width:992px){
+/* navbar responsive style */
+.cointiner{padding: 0px 100px;}
+ .nav-area{padding: 15px 50px;}
+.logo{gap: 10px 15px;}
+.logo h4{font-size: 25px;
+padding-right: 10px;}
+.menu-area{gap: 0px 20px;}
+.discover-button{font-size: 18px;
+    padding: 8px 15px;
+   font-weight: 600;}
+.login-button{font-size: 17px;
+    padding: 5px 15px;
+   font-weight: 400;
+padding-left: 15px;}
+.menu-area img{width: 50px ;}
 
+/* banner area responsive style */
+.baner-img{height: 200px;
+    width: 290px;
+    border-radius: 5px;
+    padding-right: 35px;}
+.baner-text-area h1{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;}
+.baner-text-area p{font-size: 18px;
+    padding-top: 8px;}
+.baner-text-area button{
+        margin-top: 5px;
+        padding: 8px 12px;
+        font-size: 15px;}
+.baner-area{padding-top: 30px;
+    padding-bottom: 50px;}
 
+/* why choose area responsive here */
+.why-choose-area h1{font-size: 25px;}
 
+.why-choose-area p{font-size: 15px;
+padding-top: 5px;}
 
+.card-cointiner{padding-top: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;}
 
+.card{padding: 15px;
+   border-radius: 8px;
+height: 300px;
+width: 200px;}
 
+.card h4{padding-top: 5px;
+line-height: 20px;
+font-weight: 600;}
 
+.card p{font-size: 13px;
+padding-right: 30px;
+}
 
+/* image area responsive here */
+.images{width: 200px;
+    height: 160px;}
+.img-card{height: 350px;
+width: 200px;}
 
+.img-area{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;padding-top: 50px;
+padding-bottom: 30px;}
 
+.img-card h5{font-size: 17px;
+padding-left: 10px;}
 
+.img-card p{font-size: 14px;
+     padding-left: 10px;}
 
+.img-card button{
+font-weight: 700;
+padding: 5px 15px;
+margin-top: 37px;
+margin-left: 10px;}
+ 
+/* footer area responsive here */
+.main-footer{padding-top: 30px;
+    padding-bottom: 620px;}
+    .footer-text{font-size: 18px;}
 
+/* social icon area responsive */
+.social-menu{gap: 25px; padding-top: 20px;}
+.social-menu a{font-size: 20px;}
 
-
-
-
-} 
-  
+/* copy right responsive */
+.copy-right{font-size: 18px;
+    padding-top: 15px;}
+}
 
 
 
